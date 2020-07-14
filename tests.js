@@ -1,6 +1,6 @@
 const { expect } = require('chai')
 const { describe, it } = require('mocha')
-const calculate = require('./index')
+const { calculate } = require('./index.js')
 
 describe('HazyCalculator', () => {
   it('multiplies two numbers when one is stringified', () => {
